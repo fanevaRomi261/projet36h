@@ -1,0 +1,135 @@
+.blog {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 0 0;
+    margin-top: 90px;
+  }
+  
+  .blog .blog-item {
+    margin-bottom: 45px;
+  }
+  
+  .blog .blog-img {
+    position: relative;
+    width: 100%;
+  }
+  
+  .blog .blog-img img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .blog .meta-date {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 10%;
+    left: calc(50% - 35px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 70px;
+    background: #202C45;
+    color: #ffffff;
+    opacity: 0;
+    transition: .5s;
+  }
+  
+  .blog .meta-date span {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .blog .meta-date strong {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  .blog .blog-item:hover .meta-date {
+    bottom: calc(50% - 35px);
+    opacity: 1;
+  }
+  
+  .blog .blog-text {
+    padding: 25px 0 20px 0;
+  }
+  
+  .blog .blog-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .blog .blog-text h3 a {
+    color: #202C45;
+  }
+  
+  .blog .blog-text h3 a:hover {
+    color: #E81C2E;
+  }
+  
+  .blog .blog-text p {
+    margin: 0;
+  }
+  
+  .blog .blog-meta {
+    display: flex;
+  }
+  
+  .blog .blog-meta p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 10px;
+    border-right: 1px solid rgba(0, 0, 0, .15);
+  }
+  
+  .blog .blog-meta p:first-child {
+    padding-left: 0;
+  }
+  
+  .blog .blog-meta p:last-child {
+    padding-right: 0;
+    border: none;
+  }
+  
+  .blog .blog-meta i {
+    color: #999999;
+    margin-right: 5px;
+  }
+  
+  .blog .blog-meta a {
+    color: #999999;
+  }
+  
+  .blog .blog-meta a:hover {
+    color: #E81C2E;
+  }
+  
+  .blog .pagination {
+    margin-bottom: 15px;
+  }
+  
+  .blog .pagination .page-link {
+    color: #202C45;
+    border-radius: 0;
+    border-color: #202C45;
+  }
+  
+  .blog .pagination .page-link:hover,
+  .blog .pagination .page-item.active .page-link {
+    color: #E81C2E;
+    background: #202C45;
+  }
+  
+  .blog .pagination .disabled .page-link {
+    color: #999999;
+  }
+
+  .sary{
+    width: 80%;
+  }
